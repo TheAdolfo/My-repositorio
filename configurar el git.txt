@@ -1,0 +1,6 @@
+git --version #version de git
+git config --global user.name "Nicolas schurmann"
+git config --global user.email nicolas@gmail.com
+git config --global core.editor "code --wait"
+git config --global -e
+git config --global core-autocrlf input
