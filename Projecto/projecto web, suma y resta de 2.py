@@ -18,7 +18,16 @@ def login():
 
 @app.route('/Register') #ruta 2
 def registro():
-    return '<body bgcolor="white"><center> <h1 style="color: red;">Registrate</h1>   <br><form action="/" method="get"> <p>Nombre: <input type="text"  size="40"></p> <p>Apellido: <input type="text"  size="40"></p> <p>Edad: <input type="text"  size="40"> <p>Correo Electronico: <input type="text"  size="40"> </p>  <p>Contraseña: <input size="40"></p> <p>Repite la contraseña: <input size="40"></p></br> <a href="/nosotros"><button href>Registrarte</button> </a> </center>'
+    return """<body bgcolor="white">
+    <center> <h1 style="color: red;">Registrate</h1>
+     <br><form action="/" method="get"> 
+     <p>Nombre: <input type="text"  size="40"></p>
+    <p>Apellido: <input type="text"  size="40"></p>
+    <p>Edad: <input type="text"  size="40">
+    <p>Correo Electronico: <input type="text"  size="40"> </p>
+    <p>Contraseña: <input size="40"></p> 
+    <p>Repite la contraseña: <input size="40"></p>
+    </br> <a href="/nosotros"><button href>Registrarte</button> </a> </center>"""
 
 
 
