@@ -62,6 +62,7 @@ def nosotros():
     return """<body bgcolor="black">
     <center><h1 style="color: red;">Hola, Esto es nosotros</h1></center>
     <h6 style="color: blue>Regresar</h6>
+    
     """
 
 
