@@ -50,6 +50,7 @@ def hello():
     <center> <h1 style="color: red;">Hello, world</h1></center>
     <center><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ69MR2WkachtqqExQ1haf1E8kEq9j7agvKMujRDdR5A&s"></center>
     <center><p>Esto es un texto de prueba si, texto de prueba, texto de prueba, parrafo de prueba parrafo de prueba</p> </center> 
+    <h1>Pagi</h1>
     </body>
     """
 
