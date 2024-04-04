@@ -6,7 +6,15 @@ app = Flask(__name__)
 
 @app.route('/') #ruta 2
 def login():
-    return '<body bgcolor="white"><center> <h1 style="color: red;">Iniciar Sesión</h1>   <br><form action="/inicio" method="get"> <p>Correo electronico: <input type="text"  size="40"></p> <p>Contraseña: <input></p></br>  <a href="/nosotros"> <button href>Iniciar sesion</button> </a> <br>No tienes cuenta? <a href="/Register">Registrate</a><br></center>'
+    return """<body bgcolor="white">
+    <center> <h1 style="color: red;">Iniciar Sesión</h1>
+      <br><form action="/inicio" method="get"> 
+      <p>Correo electronico: <input type="text"  size="40"></p>
+        <p>Contraseña: <input></p></br>
+          <a href="/nosotros"> <button href>Iniciar sesion</button> </a>
+            <br>No tienes cuenta? <a href="/Register">Registrate</a><br></center>"""
+
+
 
 @app.route('/Register') #ruta 2
 def registro():
