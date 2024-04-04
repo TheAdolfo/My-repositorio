@@ -55,9 +55,6 @@ def hello():
 
 
 
-
-
-
 @app.route('/nosotros') #ruta 2
 def nosotros():
     return """<body bgcolor="black">
