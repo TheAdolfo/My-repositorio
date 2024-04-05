@@ -6,13 +6,18 @@ app = Flask(__name__)
 
 @app.route('/') #ruta 2
 def login():
-    return """<body bgcolor="white">
+    return """
+    <body bgcolor="white">
+    <center> <img src="https://st2.depositphotos.com/1810600/5838/v/450/depositphotos_58387439-stock-illustration-abstract-vector-logo.jpg" alt="logo de nuestra pagina web" style="border-radius: 10px; width="300" height="200""> 
+    
     <center> <h1 style="color: red;">Iniciar Sesión</h1>
       <br><form action="/inicio" method="get"> 
       <p>Correo electronico: <input type="text"  size="40"></p>
         <p>Contraseña: <input></p></br>
           <a href="/nosotros"> <button href>Iniciar sesion</button> </a>
-            <br>No tienes cuenta? <a href="/Register">Registrate</a><br></center>"""
+            <br>No tienes cuenta? <a href="/Register">Registrate</a><br></center>
+            <p><input></p>
+            """
 
 
 
